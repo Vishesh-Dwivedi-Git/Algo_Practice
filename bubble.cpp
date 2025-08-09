@@ -4,6 +4,12 @@
 
 using namespace std;
 
+
+//TC: 0(n^2)
+//SC: O(1) (in-place sorting)
+//Already Sorted: O(n) (best case)
+//Worst Case: O(n^2) (when the array is sorted in reverse order)
+//Stable: Yes (it maintains the relative order of equal elements)
 void bubbleSort(vector<int>& arr){
     int n=arr.size();
     //bubble and float up 
